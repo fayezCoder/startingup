@@ -20,9 +20,7 @@ class ImagesViewModel @Inject constructor(
 
     init {
         getImages()
-
     }
-
     fun getImages() {
         repository.getAllImages().onEach { response ->
             when (response) {

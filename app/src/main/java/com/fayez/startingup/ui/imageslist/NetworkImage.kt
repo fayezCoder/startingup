@@ -22,7 +22,7 @@ contentDesc: String?,
         val painter = rememberImagePainter(
             data = url,
             builder = {
-                placeholder(drawableResId = R.drawable.placeholder)
+                placeholder(drawableResId = R.drawable.fayez)
                 crossfade(true)
             }
         )
